@@ -1,13 +1,13 @@
 # 📰 Fake News, Spam, and Sentiment Detection System
 
-A Machine Learning-based project to detect fake or spam news, analyze its sentiment, and provide smart advisory suggestions for responsible content sharing.
+A Machine Learning-based project to detect fake news, analyze its sentiment, and provide smart advisory suggestions for responsible content sharing.
 
 ---
 
 ## 📂 Project Overview
 
 This project uses Natural Language Processing (NLP) and Machine Learning (ML) to:
-- Classify news as Fake, Real, or Spam
+- Classify news as Fake, Real
 - Analyze the emotional tone (Sentiment)
 - Provide advisory messages to users before sharing content
 
@@ -15,7 +15,7 @@ This project uses Natural Language Processing (NLP) and Machine Learning (ML) to
 
 ## 🚀 What It Does
 
-✅ Loads and merges multiple datasets (Fake, Real, Spam)  
+✅ Loads and merges multiple datasets (Fake, Real)  
 ✅ Cleans and preprocesses text (lowercasing, stopwords, stemming, etc.)  
 ✅ Converts text into TF-IDF vectors  
 ✅ Trains ML models like Naive Bayes to classify news  
@@ -30,8 +30,8 @@ This project uses Natural Language Processing (NLP) and Machine Learning (ML) to
 ## 🛠️ How It Works
 
 ### 🟦 Part 1: Dataset Integration & Preprocessing
-- Load datasets: `Fake.csv`, `True.csv`, `spam.csv`
-- Label each dataset (Fake, Real, Spam)
+- Load datasets: `Fake.csv`, `True.csv`
+- Label each dataset (Fake, Real)
 - Merge datasets into one
 - Preprocess text:
   - Lowercasing
@@ -45,7 +45,7 @@ This project uses Natural Language Processing (NLP) and Machine Learning (ML) to
 - Use `TfidfVectorizer(max_features=5000)` to convert text to numbers
 - Analyze top keywords using average TF-IDF scores
 - Train classifier models:
-  - Multinomial Naive Bayes (Fake/Real/Spam)
+  - Multinomial Naive Bayes (Fake/Real)
 - Evaluate models with accuracy score, classification report
 
 ### 🟥 Part 3: Sentiment & Expert System Advisory
