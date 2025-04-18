@@ -64,9 +64,3 @@ News: "Government offers free education to all students this year" Prediction: R
 Sentiment: Positive
 Advisory: Safe to engage ✅
 
----
-
-## 📁 Folder Structure
-
-project/ ├── Data/ │ ├── Fake.csv │ ├── True.csv │ └── Spam.csv ├── Notebooks/ │ ├── Data_Preprocessing.ipynb │ ├── TFIDF_Model_Training.ipynb │ └── Sentiment_Advisory_System.ipynb ├── requirements.txt └── README.md
-
